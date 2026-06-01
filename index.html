@@ -214,6 +214,7 @@ body { font-family: 'Sarabun', sans-serif; background: #f0eaf8; color: var(--dar
 
 /* ===== DIVIDER ===== */
 .divider { height: 1px; background: #f0e8ff; margin: 14px 0; }
+@media(max-width: 480px) { .do-dont-grid { grid-template-columns: 1fr !important; } }
 </style>
 </head>
 <body>
@@ -324,11 +325,11 @@ body { font-family: 'Sarabun', sans-serif; background: #f0eaf8; color: var(--dar
 
       <div class="tl-item">
         <div class="tl-dot"></div>
-        <div class="tl-date">5–11 มิ.ย. 2026 (เฉพาะ จ–ศ)</div>
+        <div class="tl-date">5–11 มิ.ย. 2026</div>
         <div class="tl-box">
           <h4>🏥 Field Research — ลงพื้นที่</h4>
-          <p>แต่ละคนหาลูกค้าสูงสุด 2 คน ที่ตรงเกณฑ์ คุยแบบเนียนๆ ในคลินิก <strong>แนะนำให้อัดเสียงไว้ด้วย</strong> กรอก Form ให้เสร็จในวันที่คุย</p>
-          <span class="tl-tag pink">จ–ศ เท่านั้น</span>
+          <p>แต่ละคนหาลูกค้าสูงสุด 2 คน ที่ตรงเกณฑ์ คุยแบบเนียนๆ ในคลินิก <strong>แนะนำให้อัดเสียงไว้ด้วย</strong> กรอก Form ให้เสร็จในวันที่คุย — ทำได้ทุกวันรวมถึง เสาร์–อาทิตย์</p>
+          <span class="tl-tag pink">5–11 มิ.ย.</span>
           <span class="tl-tag" style="background:#f97316;">🎙️ อัดเสียง</span>
         </div>
       </div>
@@ -369,12 +370,12 @@ body { font-family: 'Sarabun', sans-serif; background: #f0eaf8; color: var(--dar
       <div class="team-card team-lead">
         <div class="avatar">M</div>
         <div class="name">mild</div>
-        <div class="role">Lead / Ads</div>
+        <div class="role">Ads</div>
       </div>
       <div class="team-card team-lead">
         <div class="avatar">P</div>
         <div class="name">pond</div>
-        <div class="role">Lead / Web+SEO</div>
+        <div class="role">Web+SEO</div>
       </div>
       <div class="team-card">
         <div class="avatar">K</div>
@@ -521,15 +522,11 @@ body { font-family: 'Sarabun', sans-serif; background: #f0eaf8; color: var(--dar
         การสัมภาษณ์ลูกค้าต้องทำในเวลาส่วนตัว ไม่ใช่ระหว่างกะ หรือเวลาทำงานปกติ
       </div>
     </div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;" class="do-dont-grid">
       <div style="background:#f0fdf4;border:1.5px solid #86efac;border-radius:12px;padding:14px;">
         <div style="font-size:13px;font-weight:800;color:#15803d;margin-bottom:8px;">✅ DO</div>
         <ul style="list-style:none;font-size:13px;color:#166534;line-height:1.9;">
           <li>• คุยเป็นธรรมชาติ เหมือนเพื่อน</li>
           <li>• อัดเสียงระหว่างคุยไว้ด้วย</li>
           <li>• กรอก Form ทันทีหลังคุย</li>
-          <li>• จดคำพูดของลูกค้าตรงๆ</li>
-          <li>• ถ่าย Selfie ก่อนลา</li>
-        </ul>
-      </div>
-  
+          <li>• จดคำ
